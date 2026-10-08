@@ -177,6 +177,9 @@ table.market-table { width: 100%; border-collapse: collapse; min-width: 460px; }
 
 /* ---------- Выгоды и карточки ---------- */
 .grid { display: grid; gap: 20px; }
+.grid > * { min-width: 0; }
+.market > *, .calc > *, .faq > *, .contact-grid > *, .result-grid > *, .steps > * { min-width: 0; }
+.table-wrap { max-width: 100%; }
 .grid--2 { grid-template-columns: repeat(2, 1fr); }
 .grid--3 { grid-template-columns: repeat(3, 1fr); }
 .grid--4 { grid-template-columns: repeat(4, 1fr); }
