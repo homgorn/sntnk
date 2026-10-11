@@ -1,0 +1,21 @@
+/* Дизайн варианта #12 — сгенерирован, правки точечные */
+
+:root {
+  --g500: #4932ad;
+  --g700: #322082;
+  --g-btn: #4932ad;
+  --g-btn-hover: #322082;
+  --g-bright: #ab9fdf;
+  --radius: 8px;
+  --radius-lg: 14px;
+}
+body { font-family: Palatino, Georgia, serif; }
+h1, h2, h3 { letter-spacing: 0; font-weight: 800; }
+.btn--primary { border-radius: 8px; }
+.brand { letter-spacing: .02em; }
+.hero background:var(--dark);color:#ffffff;
+.hero h1 { text-transform: none; }
+.hero .eyebrow { letter-spacing: .18em; }
+.post-card { border-radius: 16px; }
+.site-footer { background: #1c1c1c; }
+@media (max-width: 760px) { h1 { font-size: clamp(30px, 9vw, 44px); } }

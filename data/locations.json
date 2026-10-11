@@ -1,0 +1,1316 @@
+{
+  "_comment": "Пункты выдачи Syntonik. ДАННЫЕ ИЗ RESEARCH, НЕ ВЫДУМЫВАТЬ: все адреса подтверждены OpenStreetMap и проверяемы по ссылке 'osm'. Пересобрать: python tools/build_locations.py && python tools/build_local.py",
+  "_generated_at": "2026-10-12",
+  "_provenance": "адреса/координаты — из OSM (сообщено, проверяемо); ПВЗ СДЭК меняются, актуальную точку подтверждаем при заказе",
+  "_picker_cdek": "https://www.cdek.ru/ru/offices/map/",
+  "_picker_kit": "https://kk-kit.ru/",
+  "locations": [
+    {
+      "slug": "moskva",
+      "city": "Москва",
+      "region": "Московская область",
+      "country": "RU",
+      "center": {
+        "lat": 55.625578,
+        "lon": 37.6063916
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Киевская улица",
+          "full_address": "Москва, Киевская улица",
+          "district": "",
+          "postal": "121165",
+          "lat": "55.7420614",
+          "lon": "37.5356756",
+          "osm": "https://www.openstreetmap.org/node/5986154985",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "1-й Нижнелихоборский проезд",
+          "full_address": "Москва, 1-й Нижнелихоборский проезд",
+          "district": "Нижние Лихоборы",
+          "postal": "127238",
+          "lat": "55.8470763",
+          "lon": "37.5638931",
+          "osm": "https://www.openstreetmap.org/node/12112361279",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "курьер по Москве в день заказа, ТК по области 1–2 дня"
+    },
+    {
+      "slug": "sankt-peterburg",
+      "city": "Санкт-Петербург",
+      "region": "Санкт-Петербург",
+      "country": "RU",
+      "center": {
+        "lat": 59.9606739,
+        "lon": 30.1586551
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Ивана Фомина, 9",
+          "full_address": "Санкт-Петербург, улица Ивана Фомина, 9",
+          "district": "Шувалово-Озерки",
+          "postal": "194295",
+          "lat": "60.0495842",
+          "lon": "30.3473561",
+          "osm": "https://www.openstreetmap.org/node/12112364669",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "КИТ",
+          "title": "Терминал ТК КИТ",
+          "address": "Индустриальный проспект, 44А",
+          "full_address": "Санкт-Петербург, Индустриальный проспект, 44А",
+          "district": "",
+          "postal": "195279",
+          "lat": "59.9576576",
+          "lon": "30.4596962",
+          "osm": "https://www.openstreetmap.org/way/43893535",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — терминал выдачи груза"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК и Почта России 1–3 дня, самовывоз по договорённости"
+    },
+    {
+      "slug": "novosibirsk",
+      "city": "Новосибирск",
+      "region": "Новосибирская область",
+      "country": "RU",
+      "center": {
+        "lat": 54.9678145,
+        "lon": 82.9515989
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Гусинобродское шоссе, 62 к2",
+          "full_address": "Новосибирск, Гусинобродское шоссе, 62 к2",
+          "district": "Восточный МЖК",
+          "postal": "630000",
+          "lat": "55.0366473",
+          "lon": "83.0115661",
+          "osm": "https://www.openstreetmap.org/node/8938930354",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "КИТ",
+          "title": "Терминал ТК КИТ",
+          "address": "Северный проезд",
+          "full_address": "Новосибирск, Северный проезд",
+          "district": "Южно-Чемской",
+          "postal": "630000",
+          "lat": "54.9483222",
+          "lon": "82.9318213",
+          "osm": "https://www.openstreetmap.org/node/5870289490",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — терминал выдачи груза"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Сибири 2–4 дня, отправка в день оплаты"
+    },
+    {
+      "slug": "ekaterinburg",
+      "city": "Екатеринбург",
+      "region": "Свердловская область",
+      "country": "RU",
+      "center": {
+        "lat": 56.8382071,
+        "lon": 60.6007886
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Красный переулок, 8",
+          "full_address": "Екатеринбург, Красный переулок, 8",
+          "district": "Космос",
+          "postal": "620027",
+          "lat": "56.8488561",
+          "lon": "60.5980754",
+          "osm": "https://www.openstreetmap.org/node/8938928701",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "КИТ",
+          "title": "Терминал ТК КИТ",
+          "address": "Завокзальная улица",
+          "full_address": "Екатеринбург, Завокзальная улица",
+          "district": "Вокзальный",
+          "postal": "620141",
+          "lat": "56.8657655",
+          "lon": "60.6031076",
+          "osm": "https://www.openstreetmap.org/node/3341441110",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — терминал выдачи груза"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Уралу 2–3 дня, пункт выдачи на карте города"
+    },
+    {
+      "slug": "kazan",
+      "city": "Казань",
+      "region": "Республика Татарстан",
+      "country": "RU",
+      "center": {
+        "lat": 55.7946485,
+        "lon": 49.1115022
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "проспект Ямашева, 49",
+          "full_address": "Казань, проспект Ямашева, 49",
+          "district": "Дружба",
+          "postal": "420103",
+          "lat": "55.8255266",
+          "lon": "49.1214831",
+          "osm": "https://www.openstreetmap.org/node/6406850090",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Восстания, 16",
+          "full_address": "Казань, улица Восстания, 16",
+          "district": "Дружба",
+          "postal": "420044",
+          "lat": "55.8355613",
+          "lon": "49.0950661",
+          "osm": "https://www.openstreetmap.org/node/9807828093",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Поволжью 1–3 дня"
+    },
+    {
+      "slug": "nizhniy-novgorod",
+      "city": "Нижний Новгород",
+      "region": "Нижегородская область",
+      "country": "RU",
+      "center": {
+        "lat": 56.3264816,
+        "lon": 44.0051395
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Ошарская улица, 14",
+          "full_address": "Нижний Новгород, Ошарская улица, 14",
+          "district": "",
+          "postal": "603006",
+          "lat": "56.3213210",
+          "lon": "44.0090837",
+          "osm": "https://www.openstreetmap.org/node/8938928869",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Ильинская улица, 81",
+          "full_address": "Нижний Новгород, Ильинская улица, 81",
+          "district": "",
+          "postal": "603950",
+          "lat": "56.3163731",
+          "lon": "43.9869457",
+          "osm": "https://www.openstreetmap.org/node/11067151290",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК 1–3 дня по ЦФО"
+    },
+    {
+      "slug": "chelyabinsk",
+      "city": "Челябинск",
+      "region": "Челябинская область",
+      "country": "RU",
+      "center": {
+        "lat": 55.1598408,
+        "lon": 61.4025547
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Свободы, 161",
+          "full_address": "Челябинск, улица Свободы, 161",
+          "district": "Урицкого",
+          "postal": "454091",
+          "lat": "55.1494135",
+          "lon": "61.4166910",
+          "osm": "https://www.openstreetmap.org/node/8938929895",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица 40-летия Победы, 5",
+          "full_address": "Челябинск, улица 40-летия Победы, 5",
+          "district": "",
+          "postal": "454100",
+          "lat": "55.1925380",
+          "lon": "61.2869310",
+          "osm": "https://www.openstreetmap.org/node/8938929278",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Уралу 2–3 дня"
+    },
+    {
+      "slug": "samara",
+      "city": "Самара",
+      "region": "Самарская область",
+      "country": "RU",
+      "center": {
+        "lat": 53.1956255,
+        "lon": 50.1014927
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Молодогвардейская улица, 180",
+          "full_address": "Самара, Молодогвардейская улица, 180",
+          "district": "",
+          "postal": "443028",
+          "lat": "53.1998809",
+          "lon": "50.1043913",
+          "osm": "https://www.openstreetmap.org/node/8938930330",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Ново-Садовая улица, 181А",
+          "full_address": "Самара, Ново-Садовая улица, 181А",
+          "district": "",
+          "postal": "443028",
+          "lat": "53.2187942",
+          "lon": "50.1634213",
+          "osm": "https://www.openstreetmap.org/node/8938928748",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "родной город продавца: доставка по Самаре 1–2 дня, самовывоз по договорённости"
+    },
+    {
+      "slug": "omsk",
+      "city": "Омск",
+      "region": "Омская область",
+      "country": "RU",
+      "center": {
+        "lat": 54.991375,
+        "lon": 73.371529
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица 5-й Армии, 6",
+          "full_address": "Омск, улица 5-й Армии, 6",
+          "district": "",
+          "postal": "644000",
+          "lat": "55.0026473",
+          "lon": "73.3552730",
+          "osm": "https://www.openstreetmap.org/node/8938929731",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Учебная улица, 83 к1",
+          "full_address": "Омск, Учебная улица, 83 к1",
+          "district": "Куйбышевский",
+          "postal": "644000",
+          "lat": "54.9773230",
+          "lon": "73.3920010",
+          "osm": "https://www.openstreetmap.org/node/11889052500",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Сибири 2–4 дня"
+    },
+    {
+      "slug": "rostov-na-donu",
+      "city": "Ростов-на-Дону",
+      "region": "Ростовская область",
+      "country": "RU",
+      "center": {
+        "lat": 47.2222596,
+        "lon": 39.7198736
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Братский переулок, 55",
+          "full_address": "Ростов-на-Дону, Братский переулок, 55",
+          "district": "",
+          "postal": "344082",
+          "lat": "47.2224474",
+          "lon": "39.6982909",
+          "osm": "https://www.openstreetmap.org/node/11975036311",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "проспект 40-летия Победы, 89",
+          "full_address": "Ростов-на-Дону, проспект 40-летия Победы, 89",
+          "district": "Александровка",
+          "postal": "344048",
+          "lat": "47.2391700",
+          "lon": "39.8288780",
+          "osm": "https://www.openstreetmap.org/node/9279679715",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по ЮФО 1–3 дня"
+    },
+    {
+      "slug": "ufa",
+      "city": "Уфа",
+      "region": "Республика Башкортостан",
+      "country": "RU",
+      "center": {
+        "lat": 54.7261409,
+        "lon": 55.947499
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Энтузиастов, 5",
+          "full_address": "Уфа, улица Энтузиастов, 5",
+          "district": "Новостройка",
+          "postal": "450096",
+          "lat": "54.7571400",
+          "lon": "56.0240880",
+          "osm": "https://www.openstreetmap.org/node/10697406491",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "бульвар Давлеткильдеева, 20",
+          "full_address": "Уфа, бульвар Давлеткильдеева, 20",
+          "district": "Глумилино",
+          "postal": "450000",
+          "lat": "54.7615447",
+          "lon": "56.0343774",
+          "osm": "https://www.openstreetmap.org/node/9279679568",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по ПФО 2–3 дня"
+    },
+    {
+      "slug": "krasnoyarsk",
+      "city": "Красноярск",
+      "region": "Красноярский край",
+      "country": "RU",
+      "center": {
+        "lat": 56.0091173,
+        "lon": 92.872586
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица 60 лет Октября, 111А",
+          "full_address": "Красноярск, улица 60 лет Октября, 111А",
+          "district": "",
+          "postal": "660000",
+          "lat": "55.9837863",
+          "lon": "92.9012522",
+          "osm": "https://www.openstreetmap.org/node/11482493915",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Борисова, 34",
+          "full_address": "Красноярск, улица Борисова, 34",
+          "district": "Студгородок",
+          "postal": "660000",
+          "lat": "55.9914776",
+          "lon": "92.7955404",
+          "osm": "https://www.openstreetmap.org/node/8938929362",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Сибири 3–5 дней"
+    },
+    {
+      "slug": "perm",
+      "city": "Пермь",
+      "region": "Пермский край",
+      "country": "RU",
+      "center": {
+        "lat": 58.0108531,
+        "lon": 56.2318528
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Мира, 9",
+          "full_address": "Пермь, улица Мира, 9",
+          "district": "Новоплоский",
+          "postal": "614022",
+          "lat": "57.9844704",
+          "lon": "56.2093277",
+          "osm": "https://www.openstreetmap.org/node/8938930331",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Чкалова, 4",
+          "full_address": "Пермь, улица Чкалова, 4",
+          "district": "Зелёное хозяйство",
+          "postal": "614064",
+          "lat": "57.9860877",
+          "lon": "56.2689525",
+          "osm": "https://www.openstreetmap.org/node/8938928951",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по ПФО 2–4 дня"
+    },
+    {
+      "slug": "voronezh",
+      "city": "Воронеж",
+      "region": "Воронежская область",
+      "country": "RU",
+      "center": {
+        "lat": 51.6605982,
+        "lon": 39.2005858
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Загоровского, 1",
+          "full_address": "Воронеж, улица Загоровского, 1",
+          "district": "Олимпийский",
+          "postal": "394054",
+          "lat": "51.7156253",
+          "lon": "39.1915519",
+          "osm": "https://www.openstreetmap.org/node/12541053684",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Бахметьева",
+          "full_address": "Воронеж, улица Бахметьева",
+          "district": "Песчаный лог",
+          "postal": "877676",
+          "lat": "51.6533848",
+          "lon": "39.1769135",
+          "osm": "https://www.openstreetmap.org/node/12541053678",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по ЦФО 1–3 дня"
+    },
+    {
+      "slug": "volgograd",
+      "city": "Волгоград",
+      "region": "Волгоградская область",
+      "country": "RU",
+      "center": {
+        "lat": 48.7081906,
+        "lon": 44.5153353
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Рабоче-Крестьянская улица, 11А",
+          "full_address": "Волгоград, Рабоче-Крестьянская улица, 11А",
+          "district": "",
+          "postal": "400001",
+          "lat": "48.6953954",
+          "lon": "44.4981506",
+          "osm": "https://www.openstreetmap.org/node/8938930293",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Рабоче-Крестьянская улица, 36",
+          "full_address": "Волгоград, Рабоче-Крестьянская улица, 36",
+          "district": "",
+          "postal": "400074",
+          "lat": "48.6923326",
+          "lon": "44.4911394",
+          "osm": "https://www.openstreetmap.org/node/8938928945",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по ЮФО 1–3 дня"
+    },
+    {
+      "slug": "krasnodar",
+      "city": "Краснодар",
+      "region": "Краснодарский край",
+      "country": "RU",
+      "center": {
+        "lat": 45.0351532,
+        "lon": 38.9772396
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Воронежская улица, 47Д",
+          "full_address": "Краснодар, Воронежская улица, 47Д",
+          "district": "",
+          "postal": "350011",
+          "lat": "45.0014892",
+          "lon": "39.0321118",
+          "osm": "https://www.openstreetmap.org/node/11067168919",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Наставников, 14",
+          "full_address": "Краснодар, улица Наставников, 14",
+          "district": "ЖК Архитектор",
+          "postal": "350000",
+          "lat": "45.1178513",
+          "lon": "38.9751953",
+          "osm": "https://www.openstreetmap.org/node/12430754493",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Кубани 1–2 дня, курьер в день заказа"
+    },
+    {
+      "slug": "saratov",
+      "city": "Саратов",
+      "region": "Саратовская область",
+      "country": "RU",
+      "center": {
+        "lat": 51.530018,
+        "lon": 46.034683
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Кутякова, 74",
+          "full_address": "Саратов, улица Кутякова, 74",
+          "district": "ТЮЗ",
+          "postal": "410000",
+          "lat": "51.5385414",
+          "lon": "46.0239118",
+          "osm": "https://www.openstreetmap.org/node/8938929124",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Чернышевского, 60/62",
+          "full_address": "Саратов, улица Чернышевского, 60/62",
+          "district": "",
+          "postal": "410000",
+          "lat": "51.5137100",
+          "lon": "45.9985917",
+          "osm": "https://www.openstreetmap.org/node/8938929024",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по ПФО 1–3 дня"
+    },
+    {
+      "slug": "tyumen",
+      "city": "Тюмень",
+      "region": "Тюменская область",
+      "country": "RU",
+      "center": {
+        "lat": 57.153534,
+        "lon": 65.542274
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Омская улица",
+          "full_address": "Тюмень, Омская улица",
+          "district": "Дом Печати",
+          "postal": "625000",
+          "lat": "57.1450761",
+          "lon": "65.5450156",
+          "osm": "https://www.openstreetmap.org/node/8938930010",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Республики",
+          "full_address": "Тюмень, улица Республики",
+          "district": "Дом Печати",
+          "postal": "625000",
+          "lat": "57.1465674",
+          "lon": "65.5540064",
+          "osm": "https://www.openstreetmap.org/node/8938928975",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Западной Сибири 2–3 дня"
+    },
+    {
+      "slug": "tolyatti",
+      "city": "Тольятти",
+      "region": "Самарская область",
+      "country": "RU",
+      "center": {
+        "lat": 53.5098845,
+        "lon": 49.4189187
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Офицерская улица, 14",
+          "full_address": "Тольятти, Офицерская улица, 14",
+          "district": "",
+          "postal": "445044",
+          "lat": "53.5418152",
+          "lon": "49.3133408",
+          "osm": "https://www.openstreetmap.org/node/8938928656",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Гидротехническая улица, 28А",
+          "full_address": "Тольятти, Гидротехническая улица, 28А",
+          "district": "Шлюзовой",
+          "postal": "445005",
+          "lat": "53.4717356",
+          "lon": "49.5300370",
+          "osm": "https://www.openstreetmap.org/node/12541066407",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Поволжью 1–2 дня, самовывоз из Самары"
+    },
+    {
+      "slug": "izhevsk",
+      "city": "Ижевск",
+      "region": "Удмуртская Республика",
+      "country": "RU",
+      "center": {
+        "lat": 56.8529729,
+        "lon": 53.2103071
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Кирова, 142",
+          "full_address": "Ижевск, улица Кирова, 142",
+          "district": "Север",
+          "postal": "426008",
+          "lat": "56.8620253",
+          "lon": "53.2183528",
+          "osm": "https://www.openstreetmap.org/node/8938928892",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Максима Горького",
+          "full_address": "Ижевск, улица Максима Горького",
+          "district": "Центральный",
+          "postal": "426057",
+          "lat": "56.8544885",
+          "lon": "53.1985651",
+          "osm": "https://www.openstreetmap.org/node/11414791049",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по ПФО 2–4 дня"
+    },
+    {
+      "slug": "barnaul",
+      "city": "Барнаул",
+      "region": "Алтайский край",
+      "country": "RU",
+      "center": {
+        "lat": 53.3475493,
+        "lon": 83.7788448
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Советская улица, 10",
+          "full_address": "Барнаул, Советская улица, 10",
+          "district": "",
+          "postal": "656000",
+          "lat": "53.3546482",
+          "lon": "83.7741182",
+          "osm": "https://www.openstreetmap.org/node/8938929598",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Красноармейский проспект, 64",
+          "full_address": "Барнаул, Красноармейский проспект, 64",
+          "district": "",
+          "postal": "656000",
+          "lat": "53.3387635",
+          "lon": "83.7750618",
+          "osm": "https://www.openstreetmap.org/node/10061189570",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Сибири 3–5 дней"
+    },
+    {
+      "slug": "ulyanovsk",
+      "city": "Ульяновск",
+      "region": "Ульяновская область",
+      "country": "RU",
+      "center": {
+        "lat": 54.3150278,
+        "lon": 48.403373
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Камышинская улица, 37",
+          "full_address": "Ульяновск, Камышинская улица, 37",
+          "district": "",
+          "postal": "432073",
+          "lat": "54.2767037",
+          "lon": "48.2932624",
+          "osm": "https://www.openstreetmap.org/node/12298973304",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Димитрова, 3",
+          "full_address": "Ульяновск, улица Димитрова, 3",
+          "district": "Верхняя Терраса",
+          "postal": "432046",
+          "lat": "54.3383338",
+          "lon": "48.5422298",
+          "osm": "https://www.openstreetmap.org/node/11414791040",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Поволжью 1–3 дня"
+    },
+    {
+      "slug": "irkutsk",
+      "city": "Иркутск",
+      "region": "Иркутская область",
+      "country": "RU",
+      "center": {
+        "lat": 52.2891225,
+        "lon": 104.279829
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Марата, 70",
+          "full_address": "Иркутск, улица Марата, 70",
+          "district": "",
+          "postal": "664011",
+          "lat": "52.2796688",
+          "lon": "104.2812663",
+          "osm": "https://www.openstreetmap.org/node/9279679477",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Карла Маркса, 38",
+          "full_address": "Иркутск, улица Карла Маркса, 38",
+          "district": "",
+          "postal": "664007",
+          "lat": "52.2902356",
+          "lon": "104.2954042",
+          "osm": "https://www.openstreetmap.org/node/10976286985",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Восточной Сибири 3–6 дней"
+    },
+    {
+      "slug": "habarovsk",
+      "city": "Хабаровск",
+      "region": "Хабаровский край",
+      "country": "RU",
+      "center": {
+        "lat": 48.4812568,
+        "lon": 135.0762968
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Беломорская улица, 23",
+          "full_address": "Хабаровск, Беломорская улица, 23",
+          "district": "Большая-Вяземская",
+          "postal": "680022",
+          "lat": "48.5035160",
+          "lon": "135.0708300",
+          "osm": "https://www.openstreetmap.org/node/10697406913",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Гоголя",
+          "full_address": "Хабаровск, улица Гоголя",
+          "district": "Центр",
+          "postal": "680000",
+          "lat": "48.4784370",
+          "lon": "135.0730670",
+          "osm": "https://www.openstreetmap.org/node/8938930060",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по ДФО 4–7 дней"
+    },
+    {
+      "slug": "vladivostok",
+      "city": "Владивосток",
+      "region": "Приморский край",
+      "country": "RU",
+      "center": {
+        "lat": 43.1150678,
+        "lon": 131.8855768
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Верхнепортовая улица, 32",
+          "full_address": "Владивосток, Верхнепортовая улица, 32",
+          "district": "Эгершельд",
+          "postal": "690000",
+          "lat": "43.1053069",
+          "lon": "131.8729413",
+          "osm": "https://www.openstreetmap.org/node/11067170306",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Деревенская улица, 20 с2",
+          "full_address": "Владивосток, Деревенская улица, 20 с2",
+          "district": "",
+          "postal": "690087",
+          "lat": "43.1359365",
+          "lon": "131.9304157",
+          "osm": "https://www.openstreetmap.org/node/8938930631",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по ДФО 4–7 дней"
+    },
+    {
+      "slug": "minsk",
+      "city": "Минск",
+      "region": "Беларусь",
+      "country": "BY",
+      "center": {
+        "lat": 53.9024716,
+        "lon": 27.5618225
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Красная улица, 10",
+          "full_address": "Минск, Красная улица, 10",
+          "district": "",
+          "postal": "220029",
+          "lat": "53.9119034",
+          "lon": "27.5710700",
+          "osm": "https://www.openstreetmap.org/node/8579201560",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Партизанский проспект, 5",
+          "full_address": "Минск, Партизанский проспект, 5",
+          "district": "Посёлок Велозавода",
+          "postal": "220033",
+          "lat": "53.8864679",
+          "lon": "27.5837035",
+          "osm": "https://www.openstreetmap.org/node/8841835616",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "доставка ТК по Республике Беларусь 1–3 дня"
+    },
+    {
+      "slug": "almaty",
+      "city": "Алматы",
+      "region": "Казахстан",
+      "country": "KZ",
+      "center": {
+        "lat": 43.2363924,
+        "lon": 76.9457275
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Байсеитовой",
+          "full_address": "Алматы, улица Байсеитовой",
+          "district": "Коктем",
+          "postal": "050021",
+          "lat": "43.2398061",
+          "lon": "76.9433873",
+          "osm": "https://www.openstreetmap.org/node/11505939089",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Тузова",
+          "full_address": "Алматы, улица Тузова",
+          "district": "",
+          "postal": "050004",
+          "lat": "43.2730009",
+          "lon": "76.9384495",
+          "osm": "https://www.openstreetmap.org/node/11668897220",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Казахстану 2–5 дней"
+    },
+    {
+      "slug": "astana",
+      "city": "Астана",
+      "region": "Казахстан",
+      "country": "KZ",
+      "center": {
+        "lat": 51.1282804,
+        "lon": 71.4304708
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "проспект Кабанбай Батыра, 40",
+          "full_address": "Астана, проспект Кабанбай Батыра, 40",
+          "district": "",
+          "postal": "010000",
+          "lat": "51.1216606",
+          "lon": "71.4148557",
+          "osm": "https://www.openstreetmap.org/node/11385693797",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Туркестан, 10",
+          "full_address": "Астана, улица Туркестан, 10",
+          "district": "",
+          "postal": "010000",
+          "lat": "51.1108342",
+          "lon": "71.4262819",
+          "osm": "https://www.openstreetmap.org/node/11801658419",
+          "house_missing": false,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Казахстану 2–5 дней"
+    },
+    {
+      "slug": "tashkent",
+      "city": "Ташкент",
+      "region": "Узбекистан",
+      "country": "UZ",
+      "center": {
+        "lat": 41.3123363,
+        "lon": 69.2787079
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Тараса Шевченко улица",
+          "full_address": "Ташкент, Тараса Шевченко улица",
+          "district": "Салар",
+          "postal": "100000",
+          "lat": "41.2937772",
+          "lon": "69.2862278",
+          "osm": "https://www.openstreetmap.org/node/11397485124",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        },
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "улица Глинки",
+          "full_address": "Ташкент, улица Глинки",
+          "district": "Абдулла Каххар махалля",
+          "postal": "100000",
+          "lat": "41.2854356",
+          "lon": "69.2627531",
+          "osm": "https://www.openstreetmap.org/node/11801710998",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Узбекистану 2–5 дней"
+    },
+    {
+      "slug": "baku",
+      "city": "Баку",
+      "region": "Азербайджан",
+      "country": "AZ",
+      "center": {
+        "lat": 40.3755885,
+        "lon": 49.8328009
+      },
+      "points": [
+        {
+          "brand": "СДЭК",
+          "title": "Пункт выдачи СДЭК",
+          "address": "Фаик Юсифов",
+          "full_address": "Баку, Фаик Юсифов",
+          "district": "",
+          "postal": "1072",
+          "lat": "40.4105974",
+          "lon": "49.8693754",
+          "osm": "https://www.openstreetmap.org/node/11414750063",
+          "house_missing": true,
+          "verified": "2026-10-10"
+        }
+      ],
+      "carriers": [
+        "СДЭК — пункты выдачи заказов",
+        "ТК КИТ — отправка грузовыми терминалами"
+      ],
+      "picker": "https://www.cdek.ru/ru/offices/map/",
+      "delivery": "ТК по Азербайджану 2–4 дня"
+    }
+  ]
+}

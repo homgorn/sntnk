@@ -1,0 +1,27 @@
+{
+  "base_url": "https://syntonik.pages.dev",
+  "base_path": "",
+  "brand": "Syntonik",
+  "site_name": "Syntonik — добавка к топливу с экономией до 35%",
+  "tagline": "Концентрированная добавка-модификатор топлива для бензина, дизеля, мазута и ГБО",
+  "telegram_channel": "ecosyntonik",
+  "telegram_channel_url": "https://t.me/ecosyntonik",
+  "telegram_ai_bot": "mapechcan",
+  "email": "x.element@bk.ru",
+  "phone_display": "+7 919 715-79-79",
+  "phone_tel": "+7 919 715-79-79",
+  "seller": "ИП Трухачев Андрей Витальевич",
+  "seller_short": "ИП Трухачев А.В.",
+  "inn": "590600754890",
+  "ogrnip": "324665800218013",
+  "producer": "ООО «Торговый дом Элемент»",
+  "city": "Самара",
+  "author": {
+    "name": "Андрей Трухачев",
+    "role": "эксперт по топливной химии, поставщик Syntonik",
+    "bio": "Поставляет Syntonik с 2024 года, ведёт канал с замерами расхода, отвечает на вопросы по дозировке и применению на всех типах топлива."
+  },
+  "ai_prompt": "Здравствуйте! Читаю страницу сайта Syntonik",
+  "mail_subject": "Вопрос с сайта Syntonik",
+  "mail_body": "Здравствуйте!\n\nМеня интересует добавка к топливу Syntonik.\nСтраница: {url}\n\nВопрос:"
+}

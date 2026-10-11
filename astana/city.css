@@ -1,0 +1,21 @@
+/* Дизайн варианта #28 — сгенерирован, правки точечные */
+
+:root {
+  --g500: #9fad32;
+  --g700: #778220;
+  --g-btn: #9fad32;
+  --g-btn-hover: #778220;
+  --g-bright: #d7df9f;
+  --radius: 14px;
+  --radius-lg: 20px;
+}
+body { font-family: "Trebuchet MS", Tahoma, sans-serif; }
+h1, h2, h3 { letter-spacing: -0.03em; font-weight: 800; }
+.btn--primary { border-radius: 999px; }
+.brand { letter-spacing: .02em; }
+.hero color:#ffffff;
+.hero h1 { text-transform: none; }
+.hero .eyebrow { letter-spacing: .18em; }
+.post-card { border-radius: 22px; }
+.site-footer { background: #1c1c1c; }
+@media (max-width: 760px) { h1 { font-size: clamp(30px, 9vw, 44px); } }

@@ -1,0 +1,21 @@
+/* Дизайн варианта #15 — сгенерирован, правки точечные */
+.hero__sub{color:var(--ink-soft)!important}
+:root {
+  --g500: #8c32ad;
+  --g700: #682082;
+  --g-btn: #8c32ad;
+  --g-btn-hover: #682082;
+  --g-bright: #ce9fdf;
+  --radius: 10px;
+  --radius-lg: 16px;
+}
+body { font-family: "Segoe UI", Verdana, sans-serif; }
+h1, h2, h3 { letter-spacing: 0; font-weight: 700; }
+.btn--primary { border-radius: 10px; }
+.brand { letter-spacing: .02em; }
+.hero background:var(--white);color:var(--ink);
+.hero h1 { text-transform: none; }
+.hero .eyebrow { letter-spacing: .18em; }
+.post-card { border-radius: 18px; }
+.site-footer { background: #1c1c1c; }
+@media (max-width: 760px) { h1 { font-size: clamp(30px, 9vw, 44px); } }

@@ -414,6 +414,19 @@ table.market-table { width: 100%; border-collapse: collapse; min-width: 460px; }
 .legal-box dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 8px 18px; font-size: 15px; }
 .legal-box dt { color: var(--n600); }
 .legal-box dd { margin: 0; font-weight: 600; }
+
+/* Пункты выдачи — карточки с адресом и картой (/gde-kupit/<город>/) */
+.pickup-list { display: grid; gap: 24px; }
+.pickup-card { background: var(--white); border: 1px solid var(--n200); border-radius: var(--radius-lg); padding: 24px 24px 18px; }
+.pickup-card__head { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 14px; }
+.pickup-card__num { flex: none; width: 30px; height: 30px; border-radius: 50%; background: var(--g500); color: var(--white); display: grid; place-items: center; font-weight: 700; font-size: 15px; }
+.pickup-card__addr { font-size: 17px; margin: 0 0 4px; }
+.pickup-card__addr b { font-weight: 700; }
+.pickup-card__note { font-size: 13.5px; color: var(--n600); margin: 0 0 12px; }
+.pickup-card__map { border: 1px solid var(--n200); border-radius: 12px; overflow: hidden; margin: 14px 0 10px; }
+.pickup-card__foot { display: flex; flex-wrap: wrap; gap: 6px 18px; justify-content: space-between; font-size: 13px; color: var(--n600); margin: 0; }
+.pickup-card__foot a { color: var(--g700); }
+
 .tg-card { background: linear-gradient(135deg, #1c2b23, #0d1b14); color: var(--white); border-radius: var(--radius-lg); padding: 28px; }
 .tg-card h3 { color: var(--white); }
 .tg-card p { color: rgba(255, 255, 255, .78); font-size: 15px; }
@@ -463,6 +476,100 @@ table.market-table { width: 100%; border-collapse: collapse; min-width: 460px; }
 .text-center { text-align: center; }
 .mt-0 { margin-top: 0; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- Markdown / нейросети: меню и блок вопросов ---------- */
+.ai-tools { position: relative; display: inline-block; margin: 4px 0 18px; z-index: 30; }
+.ai-tools__btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--white); color: var(--ink);
+  border: 1.5px solid var(--n300); border-radius: 999px;
+  font-size: 14px; font-weight: 600; padding: 8px 16px; cursor: pointer;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.ai-tools__btn:hover { border-color: var(--g500); }
+.ai-tools.is-open .ai-tools__btn { border-color: var(--g500); box-shadow: var(--shadow); }
+.ai-tools__caret { font-size: 11px; color: var(--n600); }
+.ai-tools__menu {
+  display: none; position: absolute; top: calc(100% + 8px); left: 0;
+  min-width: 300px; background: var(--white); border: 1px solid var(--n200);
+  border-radius: var(--radius-lg); box-shadow: 0 12px 40px rgba(14,14,14,.14);
+  padding: 6px; grid; gap: 2px;
+}
+.ai-tools.is-open .ai-tools__menu { display: grid; }
+.ai-tools__item {
+  display: grid; gap: 2px; text-align: left; text-decoration: none;
+  border: 0; background: none; cursor: pointer;
+  padding: 10px 12px; border-radius: 10px; font: inherit; color: var(--ink);
+}
+.ai-tools__item:hover { background: var(--n100); }
+.ai-tools__item b { font-size: 14.5px; font-weight: 600; }
+.ai-tools__item span { font-size: 12.5px; color: var(--n600); }
+
+.ai-ask {
+  background: linear-gradient(135deg, #1c2b23, var(--dark)); color: var(--white);
+  border-radius: var(--radius-lg); padding: clamp(28px, 4vw, 48px);
+  display: grid; grid-template-columns: 1.3fr auto; gap: clamp(20px, 3vw, 40px); align-items: center;
+}
+.ai-ask h2 { margin: 6px 0 10px; font-size: clamp(24px, 3vw, 34px); }
+.ai-ask p { color: rgba(255, 255, 255, .78); margin: 0 0 10px; font-size: 15.5px; max-width: 620px; }
+.ai-ask__contacts { font-size: 14.5px; }
+.ai-ask__contacts a { color: var(--g-bright); }
+.ai-ask__actions { display: flex; flex-direction: column; gap: 10px; min-width: 260px; }
+.ai-ask__actions .btn { justify-content: center; text-align: center; }
+.ai-ask .btn--outline { background: transparent; color: var(--white); border-color: rgba(255,255,255,.4); }
+.ai-ask .btn--outline:hover { background: rgba(255,255,255,.1); }
+.ai-ask .btn--ghost { background: transparent; color: var(--white); border-color: rgba(255,255,255,.28); }
+.ai-ask .btn--ghost:hover { border-color: var(--g-bright); color: var(--g-bright); }
+
+/* Автор, теги, источники, навигация между статьями */
+.author-box {
+  display: flex; gap: 16px; align-items: flex-start;
+  background: var(--white); border: 1px solid var(--n200); border-radius: var(--radius-lg);
+  padding: 20px 22px; margin-top: 30px;
+}
+.author-box__ava {
+  width: 52px; height: 52px; flex: none; border-radius: 50%;
+  background: var(--dark); color: var(--g-bright); display: grid; place-items: center;
+  font-weight: 700; font-size: 19px;
+}
+.author-box b { display: block; font-size: 16px; }
+.author-box .author-box__role { display: block; font-size: 13px; color: var(--g700); text-transform: uppercase; letter-spacing: .05em; margin: 3px 0 6px; }
+.author-box p { margin: 0; font-size: 14.5px; color: var(--ink-soft); }
+.sources-box { margin-top: 26px; font-size: 14.5px; }
+.sources-box h2 { font-size: 20px; margin-bottom: 8px; }
+.sources-box ol { padding-left: 20px; margin: 0; color: var(--n700); }
+.sources-box li { margin-bottom: 6px; }
+.sources-box a { color: var(--g700); }
+.tag-row--links a {
+  font-size: 12.5px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase;
+  color: var(--g700); background: #e9f4e3; padding: 6px 12px; border-radius: 999px;
+  text-decoration: none; border: 1px solid transparent;
+}
+.tag-row--links a:hover { border-color: var(--g500); }
+.post-nav { display: flex; justify-content: space-between; gap: 14px; margin-top: 26px; }
+.post-nav a {
+  flex: 1; text-decoration: none; background: var(--white); border: 1px solid var(--n200);
+  border-radius: var(--radius-lg); padding: 14px 16px; font-size: 14.5px; max-width: 49%;
+}
+.post-nav a:hover { border-color: var(--g500); }
+.post-nav a span { display: block; font-size: 12px; color: var(--n600); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+.post-nav a b { font-weight: 600; }
+.post-nav a.next { text-align: right; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 26px; }
+.chips a {
+  font-size: 13.5px; font-weight: 600; text-decoration: none; color: var(--ink-soft);
+  border: 1px solid var(--n300); border-radius: 999px; padding: 7px 15px; background: var(--white);
+}
+.chips a:hover { border-color: var(--g500); color: var(--g700); }
+.tax-note { font-size: 14.5px; color: var(--n600); margin: -8px 0 22px; }
+
+@media (max-width: 760px) {
+  .ai-ask { grid-template-columns: 1fr; }
+  .ai-ask__actions { min-width: 0; }
+  .ai-tools__menu { left: auto; right: 0; min-width: min(300px, calc(100vw - 48px)); }
+  .post-nav { flex-direction: column; }
+  .post-nav a { max-width: 100%; }
+}
 
 /* ---------- Адаптив ---------- */
 @media (max-width: 1024px) {

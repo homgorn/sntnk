@@ -111,6 +111,65 @@
     calcAll();
   }
 
+  /* ---------- Меню «Markdown и нейросети» ---------- */
+  document.querySelectorAll(".ai-tools").forEach(function (box) {
+    var btn = box.querySelector(".ai-tools__btn");
+    if (!btn) return;
+    btn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var open = box.classList.toggle("is-open");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    document.addEventListener("click", function (e) {
+      if (!box.contains(e.target)) {
+        box.classList.remove("is-open");
+        btn.setAttribute("aria-expanded", "false");
+      }
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        box.classList.remove("is-open");
+        btn.setAttribute("aria-expanded", "false");
+      }
+    });
+    var copyBtn = box.querySelector('[data-action="copy-md"]');
+    if (copyBtn) {
+      copyBtn.addEventListener("click", function () {
+        var md = box.getAttribute("data-md") || "index.md";
+        var label = copyBtn.querySelector("b");
+        var done = function () {
+          if (label) { label.textContent = "\u2713 Скопировано в буфер"; }
+          setTimeout(function () {
+            if (label) { label.textContent = "Копировать как Markdown"; }
+            box.classList.remove("is-open");
+          }, 1600);
+        };
+        var fallback = function (text) {
+          var ta = document.createElement("textarea");
+          ta.value = text;
+          ta.style.position = "fixed";
+          ta.style.opacity = "0";
+          document.body.appendChild(ta);
+          ta.select();
+          try { document.execCommand("copy"); } catch (err) {}
+          document.body.removeChild(ta);
+          done();
+        };
+        fetch(md).then(function (r) {
+          if (!r.ok) throw new Error("md not found");
+          return r.text();
+        }).then(function (text) {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(done, function () { fallback(text); });
+          } else { fallback(text); }
+        }).catch(function () {
+          window.open(md, "_blank", "noopener");
+          done();
+        });
+      });
+    }
+  });
+
   /* ---------- Ленивая загрузка Telegram-виджетов ---------- */
   var embeds = document.querySelectorAll("[data-tg-embed]");
   if (embeds.length && "IntersectionObserver" in window) {
